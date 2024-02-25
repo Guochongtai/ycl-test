@@ -1,0 +1,11 @@
+p1=int(input("第一个评委打分是："))
+p2=int(input("第二个评委打分是："))
+p3=int(input("第三个评委打分是："))
+p4=int(input("第四个评委打分是："))
+p5=int(input("第五个评委打分是："))
+p6=int(input("第六个评委打分是："))
+p7=int(input("第七个评委打分是："))
+p8=int(input("第八个评委打分是："))
+p9=int(input("第九个评委打分是："))
+p=[p1,p2,p3,p4,p5,p6,p7,p8,p9]
+print(round(((p1+p2+p3+p4+p5+p6+p7+p8+p9)-min(p)-max(p))/7,2))

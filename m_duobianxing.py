@@ -10,4 +10,5 @@ def duobianxing():
         zhouchang+=int(input("第"+str(bianchangshu3)+"长多少?"))
 
     print(int(zhouchang))
-duobianxing()
+    return int(zhouchang)
+#duobianxing()
